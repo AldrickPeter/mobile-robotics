@@ -5,7 +5,7 @@ title: Wolf and Rabbit
 
 <div class="hero-side-images">
   <div class="image-box">
-    <img src="{{ '/mobile-robotics/assets//images/wolf.png' | relative_url }}" alt="Wolf" class="side-image">
+    <img src="{{ '/abc-mobile-robotics/assets/images/wolf.png' | relative_url }}" alt="Wolf" class="side-image">
   </div>
 
   <div class="hero-center">
@@ -15,7 +15,7 @@ title: Wolf and Rabbit
     </p>
 
     <div class="hero-buttons">
-      <a class="custom-button" href="https://aldrickpeter.github.io/mobile-robotics/">Visit Website</a>
+      <a class="custom-button" href="https://github.com/abc-mobile-robotics/abc-mobile-robotics.github.io">Visit Website</a>
       <a class="custom-button secondary-button" href="https://github.com/AldrickPeter/mobile-robotics">View Repository</a>
     </div>
 
@@ -26,7 +26,7 @@ title: Wolf and Rabbit
   </div>
 
   <div class="image-box">
-    <img src="{{ '/mobile-robotics/assets/images/rabbit.png' | relative_url }}" alt="Rabbit" class="side-image">
+    <img src="{{ '/abc-mobile-robotics/assets/images/rabbit.png' | relative_url }}" alt="Rabbit" class="side-image">
   </div>
 </div>
 
