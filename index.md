@@ -47,20 +47,29 @@ title: Wolf and Rabbit
 
     <h2 id="team">Get to know us</h2>
 
-    <div class="team-grid">
-      <div class="team-member">
-        <img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian">
-        <p>Brian</p>
+    <div style="display:flex; justify-content:center; gap:32px; flex-wrap:wrap; margin:20px 0 36px 0;">
+      <div style="text-align:center; width:220px;">
+        <div style="width:220px; height:220px; margin:0 auto; overflow:hidden; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.12); background:#f3f4f6;">
+          <img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian"
+              style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+        <p style="margin-top:12px; margin-bottom:0; font-weight:700; font-size:1.05rem; text-align:center;">Brian</p>
       </div>
 
-      <div class="team-member">
-        <img src="{{ '/assets/images/chach.jpg' | relative_url }}" alt="Chach">
-        <p>Chach</p>
+      <div style="text-align:center; width:220px;">
+        <div style="width:220px; height:220px; margin:0 auto; overflow:hidden; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.12); background:#f3f4f6;">
+          <img src="{{ '/assets/images/chach.jpg' | relative_url }}" alt="Chach"
+              style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+        <p style="margin-top:12px; margin-bottom:0; font-weight:700; font-size:1.05rem; text-align:center;">Chach</p>
       </div>
 
-      <div class="team-member">
-        <img src="{{ '/assets/images/aldrick.jpg' | relative_url }}" alt="Aldrick">
-        <p>Aldrick</p>
+      <div style="text-align:center; width:220px;">
+        <div style="width:220px; height:220px; margin:0 auto; overflow:hidden; border-radius:16px; box-shadow:0 6px 18px rgba(0,0,0,0.12); background:#f3f4f6;">
+          <img src="{{ '/assets/images/aldrick.jpg' | relative_url }}" alt="Aldrick"
+              style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+        <p style="margin-top:12px; margin-bottom:0; font-weight:700; font-size:1.05rem; text-align:center;">Aldrick</p>
       </div>
     </div>
 
