@@ -222,7 +222,7 @@ html {
   .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 28px;
     margin: 20px 0 36px 0;
   }
 
@@ -231,27 +231,27 @@ html {
   }
 
   .team-member img {
-    width: 100%;
-    max-width: 220px;
+    width: 220px;
     height: 220px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
     border-radius: 16px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   }
 
   .team-member p {
-    margin-top: 10px;
-    font-weight: 600;
-    color: #1f2937;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: 700;
     font-size: 1.05rem;
+    color: #1f2937;
+    text-align: center;
   }
 
   @media screen and (max-width: 900px) {
     .team-grid {
       grid-template-columns: 1fr;
     }
-  }
-  .feature-grid {
-    grid-template-columns: 1fr;
   }
 }
