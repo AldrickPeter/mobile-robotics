@@ -1,10 +1,9 @@
 ---
-title: "ABC Mobile Robotics"
+layout: default 
+title: "Report1"
+parent: Project 
+nav_order : 1
 ---
 
-## Project Site
 
-This site documents our Mobile Robotics project milestones.
 
-- [Milestone 1](/pages/test)
-- [Repository](https://github.com/<ORG>/<REPO>)

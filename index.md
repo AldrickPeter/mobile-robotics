@@ -35,6 +35,12 @@ title: Wolf and Rabbit
 Our project, **Wolf and Rabbit**, uses two TurtleBot robots to simulate a pursuit scenario.  
 One robot acts as the **Wolf**, which detects and chases the target, while the other acts as the **Rabbit**, which moves as the target to escape.
 
+## Get to know us 
+![alt text](image.png) 
+
+
+
+
 This system integrates perception, communication, and autonomous motion control in a ROS 2 environment.
 
 <div class="feature-grid">
