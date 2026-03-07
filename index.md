@@ -4,16 +4,7 @@ title: Wolf and Rabbit
 ---
 
 <div class="page-layout">
-  <aside class="sidebar">
-    <div class="sidebar-title">PROJECT</div>
-    <nav class="sidebar-nav">
-      <a href="#overview">1. Overview</a>
-      <a href="#team">2. Get to know us</a>
-      <a href="#features">3. Main Features</a>
-      <a href="#required">4. Required Items</a>
-      <a href="#repo">5. GitHub Repository</a>
-    </nav>
-  </aside>
+
 
   <main class="main-content-area">
     <div class="hero-side-images">
@@ -56,9 +47,22 @@ title: Wolf and Rabbit
 
     <h2 id="team">Get to know us</h2>
 
-    <p align="center">
-      <img src="{{ '/assets/images/image.png' | relative_url }}" alt="Team Introduction" width="500">
-    </p>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="{{ '/assets/images/brian.jpg' | relative_url }}" alt="Brian">
+        <p>Brian</p>
+      </div>
+
+      <div class="team-member">
+        <img src="{{ '/assets/images/chach.jpg' | relative_url }}" alt="Chach">
+        <p>Chach</p>
+      </div>
+
+      <div class="team-member">
+        <img src="{{ '/assets/images/aldrick.jpg' | relative_url }}" alt="Aldrick">
+        <p>Aldrick</p>
+      </div>
+    </div>
 
     <div class="feature-grid">
       <div class="feature-card">

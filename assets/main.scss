@@ -219,7 +219,38 @@ html {
   .hero-center h1 {
     font-size: 2.3rem;
   }
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 20px 0 36px 0;
+  }
 
+  .team-member {
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 100%;
+    max-width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  .team-member p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #1f2937;
+    font-size: 1.05rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+  }
   .feature-grid {
     grid-template-columns: 1fr;
   }
